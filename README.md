@@ -10,7 +10,7 @@ Cada ejercicio vive en su propia carpeta, con todo lo que necesita (HTML, CSS, J
 ### Bloque 1 — Frontend: estructura y estilo
 - [x] Ejercicio 1 — Formulario de contacto semántico (HTML + validación HTML5)
 - [x] Ejercicio 2 — Selectores CSS (etiqueta, clase, id, atributo, descendiente, pseudoclase)
-- [ ] Ejercicio 3 — Layout con Flexbox/Grid
+- [x] Ejercicio 3 — Layout con Flexbox/Grid
 - [ ] Ejercicio 4 — Bootstrap o Tailwind (framework CSS real de empresa)
 
 ### Bloque 2 — Lógica en el navegador (JavaScript)
