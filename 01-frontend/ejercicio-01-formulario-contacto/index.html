@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Formulario</h1>
+                <form id="formulario" name="formulario" method="post" action="/contacto">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" required>
+                    </div>
+                    <div class="campo">
+                        <label for="mail">Mail</label>
+                        <input type="email" name="mail" id="mail" required>
+                    </div>
+                    <div class="campo">
+                        <label for="telefono">Teléfono </label>
+                        <input type="tel" name="telefono" id="telefono">
+                    </div>
+                    <div class="campo">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                    </div>
+                    <div class="campo">
+                        <label for="asunto">Selecciona</label>
+                        <select name="asunto" id="asunto" >
+                            <option>Soporte</option>
+                            <option>Ventas</option>
+                            <option>Otros</option>
+                        </select>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+        </section>
+    </main>    
+</body>
+</html>
