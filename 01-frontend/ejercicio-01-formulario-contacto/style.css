@@ -1,26 +1,62 @@
-/*Requisitos — usa cada uno de estos selectores al menos una vez:
+/*
+
+EJERCICIO 2: Requisitos — usa cada uno de estos selectores al menos una vez:
 Selector de etiqueta — todos los input deben tener padding: 8px y border-radius: 4px.
 Selector de clase — añade class="campo" a cada bloque label+input, y haz que tengan margin-bottom: 16px y display: block.
 Selector de ID — el formulario debe tener max-width: 400px y estar centrado en la página (margin: 0 auto).
 Selector de atributo — todos los inputs que sean required deben tener un borde de color distinto (por ejemplo, un borde azul) para que el usuario vea a simple vista qué campos son obligatorios.
 Selector anidado/descendiente — los label que estén dentro de .campo deben tener font-weight: bold y display: block (para que queden encima del input, no al lado).
 Pseudoclase — el botón debe cambiar de color al pasar el ratón por encima (button:hover).
+
+EJERCICIO 3: Tienes el formulario de contacto hecho (HTML + CSS con selectores). Ahora vas a usar Flexbox para mejorar su presentación visual, haciéndolo más profesional y responsive.
+Requisitos:
+El formulario debe estar centrado en la página — usa display: flex en el <body> o en un contenedor, con justify-content: center y align-items: center para que quede en el medio (tanto horizontal como verticalmente).
+Los campos del formulario deben estar organizados en una columna — cada .campo ocupa el ancho completo, uno debajo del otro (ya lo tienes casi así con display: block, pero ahora lo harás explícitamente con Flexbox en el <form>).
+El formulario debe tener un ancho máximo y espaciado interno — max-width: 500px y padding: 20px para que no se vea pegado a los bordes. Usa gap (propiedad de Flexbox) para separar los campos automáticamente en vez de margin-bottom individual.
+El botón de envío debe ocupar el ancho completo del formulario — usa width: 100% en el botón, y dale más padding para que sea más clickeable (por ejemplo padding: 12px).
+Responsive en móvil — en pantallas pequeñas (@media (max-width: 600px)), el formulario debe ajustarse. Por ejemplo, el max-width podría ser 90% del ancho de la pantalla para dejar un margen.
+
+Lo que NO debes cambiar:
+La estructura HTML (los divs, labels e inputs siguen igual)
+La validación del formulario (los required siguen ahí)
+El HTML semántico (<main>, <section>, etc.)
+
+SE ACTUALIZA EL CSS DEL EJERCICIO 2 Y SERÁ AHORA DEL EJERCICIO 3
 */
+
+/*@media + condicion y como un css normal. Esto es para el responsive*/
+@media (max-width: 600px) {
+    form {
+        max-width: 90%;
+        padding: 16px;
+    }
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 
 input {
     padding: 8px;
     border-radius: 4px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 500px;
+    padding: 20px;
 }
 
 .campo {
-    margin-bottom: 16px;
     display: block;
 }
 
-#formulario {
-    max-width: 400px;
-    margin: 0 auto;
-}
 
 input[required] {
     border-color: darkorange;
@@ -29,6 +65,11 @@ input[required] {
 .campo label {
     font-weight: bold;
     display: block;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
 }
 
 button:hover {
