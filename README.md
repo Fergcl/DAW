@@ -7,33 +7,34 @@ Cada ejercicio vive en su propia carpeta, con todo lo que necesita (HTML, CSS, J
 
 ## Progreso
 
-### Bloque 1 — Frontend: estructura y estilo
-- [x] Ejercicio 1 — Formulario de contacto semántico (HTML + validación HTML5)
-- [x] Ejercicio 2 — Selectores CSS (etiqueta, clase, id, atributo, descendiente, pseudoclase)
-- [x] Ejercicio 3 — Layout con Flexbox/Grid
-- [ ] Ejercicio 4 — Bootstrap o Tailwind (framework CSS real de empresa)
+### Bloque 1 — Frontend: HTML y CSS
+- [x] 1.1 — Formulario de contacto semántico (HTML + validación HTML5)
+- [x] 1.2 — Selectores CSS (etiqueta, clase, id, atributo, descendiente, pseudoclase)
+- [x] 1.3 — Layout con Flexbox
+- [ ] 1.4 — Bootstrap o Tailwind
 
-### Bloque 2 — Lógica en el navegador (JavaScript)
-- [ ] Variables, tipos de datos y operadores
-- [ ] Arrays y objetos
-- [ ] Control de flujo (if/else, switch, bucles)
-- [ ] Funciones (declaradas, flecha, recursivas)
-- [ ] DOM y eventos
-- [ ] JSON (parse/stringify)
+### Bloque 2 — JavaScript
+- [x] 2.1 — Validación de formulario (eventos, funciones reutilizables)
+- [ ] 2.2 — LocalStorage (persistencia de datos)
+- [ ] 2.3 — Envío con Fetch (conectar con una API)
+- [ ] 2.4 — Variables, tipos y operadores
+- [ ] 2.5 — Arrays y objetos
+- [ ] 2.6 — Control de flujo
+- [ ] 2.7 — JSON
 
-### Bloque 3 — Comunicación cliente-servidor
-- [ ] API REST: conceptos (verbos HTTP, status codes, endpoints)
-- [ ] Fetch API + async/await
+### Bloque 3 — API REST
+- [ ] 3.1 — Conceptos (verbos HTTP, status codes)
+- [ ] 3.2 — Consumo de API con fetch/async-await
 
 ### Bloque 4 — Backend y base de datos
-- [ ] SQL y MySQL (diseño de tablas, CRUD, JOIN)
-- [ ] Node.js (entorno de ejecución, npm, módulos)
-- [ ] Express (rutas, middlewares, controladores)
-- [ ] Conexión Express ↔ MySQL
-- [ ] Motor de plantillas EJS
+- [ ] 4.1 — SQL y MySQL
+- [ ] 4.2 — Node.js
+- [ ] 4.3 — Express
+- [ ] 4.4 — Conexión Express + MySQL
+- [ ] 4.5 — EJS
 
 ### Bloque 5 — Framework moderno
-- [ ] React (consumiendo la API REST construida en el bloque 4)
+- [ ] 5.1 — React
 
 ## Estructura del repo
 
