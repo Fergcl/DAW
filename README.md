@@ -41,8 +41,6 @@ Cada ejercicio vive en su propia carpeta, con todo lo que necesita (HTML, CSS, J
 \`\`\`
 DAW/
 ├── 01-frontend/
-│   ├── ejercicio-01-formulario-contacto/
-│   └── ejercicio-02-selectores-css/
 ├── 02-javascript/
 ├── 03-api-rest/
 ├── 04-backend-node-express/

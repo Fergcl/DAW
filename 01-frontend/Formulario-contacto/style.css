@@ -1,6 +1,6 @@
 /*
 
-EJERCICIO 2: Requisitos — usa cada uno de estos selectores al menos una vez:
+EJERCICIO 1.2: Requisitos — usa cada uno de estos selectores al menos una vez:
 Selector de etiqueta — todos los input deben tener padding: 8px y border-radius: 4px.
 Selector de clase — añade class="campo" a cada bloque label+input, y haz que tengan margin-bottom: 16px y display: block.
 Selector de ID — el formulario debe tener max-width: 400px y estar centrado en la página (margin: 0 auto).
@@ -8,7 +8,7 @@ Selector de atributo — todos los inputs que sean required deben tener un borde
 Selector anidado/descendiente — los label que estén dentro de .campo deben tener font-weight: bold y display: block (para que queden encima del input, no al lado).
 Pseudoclase — el botón debe cambiar de color al pasar el ratón por encima (button:hover).
 
-EJERCICIO 3: Tienes el formulario de contacto hecho (HTML + CSS con selectores). Ahora vas a usar Flexbox para mejorar su presentación visual, haciéndolo más profesional y responsive.
+EJERCICIO 1.3: Tienes el formulario de contacto hecho (HTML + CSS con selectores). Ahora vas a usar Flexbox para mejorar su presentación visual, haciéndolo más profesional y responsive.
 Requisitos:
 El formulario debe estar centrado en la página — usa display: flex en el <body> o en un contenedor, con justify-content: center y align-items: center para que quede en el medio (tanto horizontal como verticalmente).
 Los campos del formulario deben estar organizados en una columna — cada .campo ocupa el ancho completo, uno debajo del otro (ya lo tienes casi así con display: block, pero ahora lo harás explícitamente con Flexbox en el <form>).
