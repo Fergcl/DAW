@@ -15,7 +15,7 @@ Cada ejercicio vive en su propia carpeta, con todo lo que necesita (HTML, CSS, J
 
 ### Bloque 2 — JavaScript
 - [x] 2.1 — Validación de formulario (eventos, funciones reutilizables)
-- [ ] 2.2 — LocalStorage (persistencia de datos)
+- [x] 2.2 — LocalStorage (persistencia de datos)
 - [ ] 2.3 — Envío con Fetch (conectar con una API)
 - [ ] 2.4 — Variables, tipos y operadores
 - [ ] 2.5 — Arrays y objetos
