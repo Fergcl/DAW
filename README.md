@@ -18,7 +18,7 @@ Cada ejercicio vive en su propia carpeta, con todo lo que necesita (HTML, CSS, J
 - [x] 2.2 — LocalStorage (persistencia de datos)
 - [x] 2.3 — Envío con Fetch (conectar con una API)
 - [x] 2.4 — Variables, tipos y operadores
-- [ ] 2.5 — Arrays y objetos
+- [x] 2.5 — Arrays y objetos
 - [ ] 2.6 — Control de flujo
 - [ ] 2.7 — JSON
 
