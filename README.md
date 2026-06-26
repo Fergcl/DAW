@@ -17,7 +17,7 @@ Cada ejercicio vive en su propia carpeta, con todo lo que necesita (HTML, CSS, J
 - [x] 2.1 — Validación de formulario (eventos, funciones reutilizables)
 - [x] 2.2 — LocalStorage (persistencia de datos)
 - [x] 2.3 — Envío con Fetch (conectar con una API)
-- [ ] 2.4 — Variables, tipos y operadores
+- [x] 2.4 — Variables, tipos y operadores
 - [ ] 2.5 — Arrays y objetos
 - [ ] 2.6 — Control de flujo
 - [ ] 2.7 — JSON
@@ -38,11 +38,11 @@ Cada ejercicio vive en su propia carpeta, con todo lo que necesita (HTML, CSS, J
 
 ## Estructura del repo
 
-\`\`\`
+```
 DAW/
 ├── 01-frontend/
 ├── 02-javascript/
 ├── 03-api-rest/
 ├── 04-backend-node-express/
 └── 05-react/
-\`\`\`
+```
