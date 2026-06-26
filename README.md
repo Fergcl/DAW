@@ -38,11 +38,11 @@ Cada ejercicio vive en su propia carpeta, con todo lo que necesita (HTML, CSS, J
 
 ## Estructura del repo
 
-\`\`\`
+```
 DAW/
 ├── 01-frontend/
 ├── 02-javascript/
 ├── 03-api-rest/
 ├── 04-backend-node-express/
 └── 05-react/
-\`\`\`
+```
